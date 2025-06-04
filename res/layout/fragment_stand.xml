@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="46dp">
+
+                <ImageView
+                    android:id="@+id/ivArrow"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_arrow"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginRight="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Команда “Стоять”"
+                        android:textSize="26sp"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivSit"
+                android:layout_width="111dp"
+                android:layout_height="111dp"
+                android:src="@drawable/ic_dogstand"
+                android:layout_marginTop="54dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Первый шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Произнесите команду “Стоять” (четко и уверенно), одновременно делая жест рукой (например, поднятая ладонь).\n\n
+2. Помогите собаке встать на 4 лапы, если она сидит, используя лакомство (поднимая его вверх) или слегка придерживая поводок."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Второй шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Сразу похвалите собаку голосом и дайте лакомство или игрушку, как только она встанет на 4 лапы. \n\n
+2. Постепенно увеличивайте время, которое собака должна стоять, прежде чем получить поощрение (с 1-2 секунд дольше)."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Третий шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Уточнение и отработка:\n
+1. Постепенно увеличивайте время:Повторяйте упражнение, постепенно удлиняя время, пока собака находится в положении “сидеть”. Не торопитесь. Собака должна научиться ассоциировать “сидеть” с ожиданием лакомства.\n\n
+2. Отработайте в разных местах:Повторяйте упражнение в разных комнатах и с различными отвлекающими факторами.\n\n
+3. Изменение высоты лакомства:Изменяйте высоту лакомства для того, чтобы собака привыкла “сидеть” с различными позициями головы.\n\n
+4. Варьируйте команду:Попробуйте просить собаку “сидеть” без лакомства, начиная с коротких промежутков времени.\n\n
+5. Комбинируйте с другими командами:Соедините “сидеть” с другими командами (например, “место”)."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Четвертый шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Закрепление:\n
+1. Регулярно повторяйте тренировку, усложняя ее.\n\n
+2. Включайте отвлекающие факторы, когда собака будет уверенно стоять в спокойной обстановке."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Важные моменты"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Позитив: Будьте терпеливы и позитивны, поощряйте каждый успех.
+2. Последовательность: Используйте одну и ту же команду и жест.
+3. Короткие тренировки: Занимайтесь по 5-10 минут несколько раз в день.
+4. Похвала: Хвалите собаку только тогда, когда она правильно выполняет команду."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="46dp">
+
+                <ImageView
+                    android:id="@+id/ivArrow"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_arrow"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginRight="45dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Команда “Сидеть”"
+                        android:textSize="26sp"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/ivSit"
+                android:layout_width="111dp"
+                android:layout_height="111dp"
+                android:src="@drawable/ic_dogsit"
+                android:layout_marginTop="54dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подготовка"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Место:Выберите спокойное место, где вы можете сосредоточиться и где собака чувствует себя комфортно. Уберите любые отвлекающие факторы (другие животные, люди, звуки).\n \n
+2. Настроение:Будьте спокойны и уверенны. Эмоции передаются собаке, поэтому важно сохранять позитивный настрой.\n\n
+3. Поощрение:Подготовьте лакомства, которые собака очень любит и которые она съедает быстро. Это может быть сухой корм, кусочки сыра, мясные или рыбные деликатесы. Используйте один и тот же тип лакомства для большей эффективности."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Первый шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Начните с “Стоять”:\n
+1. Привлечение внимания:Подзовите собаку, при этом старайтесь не привлекать её слишком резкими движениями.\n\n
+2. Поместите лакомство:Предложите лакомство, держа его прямо перед носом собаки.\n\n
+3. Поднимите лакомство:Медленно поднимайте лакомство вверх, направляя его над головой собаки, но не на уровне глаз. Вы должны помочь собаке слегка наклонить голову вперёд.\n\n
+4. Награда:В тот момент, когда собака встаёт, незамедлительно дайте ей лакомство и похвалите её."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Второй шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Соединение “Стоять” с “Сидеть”: \n
+1. Повторяйте “Стоять”:Начните с привычной для вас команды “Стоять”. Повторите процесс из пункта 2.\n\n
+2. Наклон:По мере того, как собака поднимает голову, чтобы получить лакомство, её тело начнёт слегка наклоняться. В этот момент, когда передние лапы слегка касаются земли, замените команду “Стоять” на “Сидеть”:\n\n
+3. Награда:В тот момент, когда собака сядет, сразу же дайте ей лакомство и похвалите её."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Третий шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Уточнение и отработка:\n
+1. Постепенно увеличивайте время:Повторяйте упражнение, постепенно удлиняя время, пока собака находится в положении “сидеть”. Не торопитесь. Собака должна научиться ассоциировать “сидеть” с ожиданием лакомства.\n\n
+2. Отработайте в разных местах:Повторяйте упражнение в разных комнатах и с различными отвлекающими факторами.\n\n
+3. Изменение высоты лакомства:Изменяйте высоту лакомства для того, чтобы собака привыкла “сидеть” с различными позициями головы.\n\n
+4. Варьируйте команду:Попробуйте просить собаку “сидеть” без лакомства, начиная с коротких промежутков времени.\n\n
+5. Комбинируйте с другими командами:Соедините “сидеть” с другими командами (например, “место”)."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Четвертый шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Закрепление:\n
+1. Постоянная практика: Практикуйте команду регулярно, используя поощрение и положительное подкрепление.\n\n
+2. Похвала и контакт: Используйте похвалу и ласку, чтобы показать собаке, что она выполнила задачу правильно.\n\n
+3. Разнообразие: Практикуйте команду в разных обстановках и с различными отвлекающими факторами.\n\n
+4. Снижение поощрения: Постепенно уменьшайте количество лакомств, предоставляемых за выполнение команды, делая их реже и реже."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Важные моменты"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Терпение:Не торопитесь, у каждой собаки свой темп обучения.\n\n
+2. Положительное подкрепление:Используйте поощрение для закрепления правильного поведения.\n\n
+3. Сохранение позитивного настроя:Ваше настроение очень важно для обучения собаки.\n\n
+4. Консистенция:Следуйте одной и той же методике в каждой тренировке.\n\n
+Если у вас есть сложности с обучением собаки, обратитесь к профессиональному кинологу."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="46dp">
+
+                <ImageView
+                    android:id="@+id/ivArrow"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_arrow"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginRight="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Команда “Лежать”"
+                        android:textSize="26sp"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivSit"
+                android:layout_width="111dp"
+                android:layout_height="111dp"
+                android:src="@drawable/ic_doglie"
+                android:layout_marginTop="54dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Первый шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Начните с того, что ваша собака находится в положении “Сидеть”.\n
+2. Четко произнесите команду “Лежать” и покажите жест рукой (например, проведите рукой сверху вниз к полу)."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Второй шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Держите лакомство перед носом собаки. \n\n
+2. Медленно опустите руку с лакомством вниз к полу и немного вперед, побуждая собаку следовать за лакомством и принять положение “Лежать”.\n\n
+3. Как только собака ляжет, дайте ей лакомство."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Третий шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. После того как собака ляжет, похвалите ее голосом и дайте лакомство. \n\n
+2. Постепенно увеличивайте время, которое собака должна лежать, прежде чем получить поощрение (с 1-2 секунд дольше).\n\n
+3. Если собака поднимается, мягко верните ее в положение “Лежать” и дайте лакомство, когда она снова ляжет."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Четвертый шаг"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Закрепление:\n
+1. Регулярно повторяйте тренировку, усложняя ее, меняя положение и отходя от собаки.\n\n
+2. Постепенно уменьшайте использование лакомства, заменяя его похвалой, когда собака уверенно ложится.\n\n
+3. Начинайте тренировки в разных местах, с отвлекающими факторами."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Важные моменты"
+                android:textColor="@color/black"
+                style="@style/tvSize17"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Позитив: Будьте терпеливы, позитивны, и хвалите собаку. \n\n
+2. Последовательность: Используйте одну и ту же команду и жест.\n\n
+3. Короткие тренировки: Делайте занятия короткими, по 5-10 минут.\n\n
+4. Мягкое руководство: Не давите на собаку, а поощряйте ее правильное поведение.\n\n
+5. Похвала: Хвалите собаку только тогда, когда она полностью легла, всеми 4 лапами на пол."
+                android:textColor="@color/black"
+                style="@style/tvSize15"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
